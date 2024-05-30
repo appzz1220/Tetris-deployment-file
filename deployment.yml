@@ -17,7 +17,7 @@ spec:
       - name: tetris
         image: appzz1220/tetrisv2:latest
         ports:
-        - containerPort: 9000   # Use port 9000
+        - containerPort: 3000   # Use port 3000
 
 ---
 apiVersion: v1
@@ -30,6 +30,6 @@ spec:
   ports:
   - protocol: TCP
     port: 80                 # Expose port 80
-    targetPort: 9000
+    targetPort: 3000
   type: ClusterIP
 
