@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: tetris
-        image: appzz1220/tetrisv2:latest
+        image: appzz1220122212121212/tetrisv2:latest
         ports:
         - containerPort: 3000   # Use port 3000
 
@@ -31,5 +31,5 @@ spec:
   - protocol: TCP
     port: 80                 # Expose port 80
     targetPort: 3000
-  type: ClusterIP
+  type: Loadbalancer
 
