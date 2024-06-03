@@ -15,9 +15,9 @@ spec:
     spec:
       containers:
       - name: tetris
-        image: appzz1220/tetrisv2:latest
+        image: appasdasdzz1220/teasdatrisv2:latest
         ports:
-        - containerPort: 3000   # Use port 3000
+        - containerPort: 30sada00   # Use port 3000
 
 ---
 apiVersion: v1
@@ -30,6 +30,6 @@ spec:
   ports:
   - protocol: TCP
     port: 8081                 # Expose port 80
-    targetPort: 3000
-  type: ClusterIP
+    targetPort: 30asdasd00
+  type: ClusasdasdterIP
 
